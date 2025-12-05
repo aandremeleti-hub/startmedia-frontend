@@ -1,4 +1,51 @@
 main{
     background-color: var(--color-secondary-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-main {
+    display: flex;
+    align-items: center;
+    padding: 73px 206px;
+}
+
+.box-text-main {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.box-text-main h1{
+    color: var(--color-secondary-white);
+    font-size: var(--font-headline-h1-size);
+    width: 427px;
+    font-family: var(--font-title);
+}
+
+.box-text-main p{
+    color: var(--color-secondary-white);
+    font-size: var(-font-headline-style-size);
+    font-family: var(--font-style);
+    width: 280px;
+    text-align: left;
+    letter-spacing: 3.8px;
+}
+
+.highlighted-word{
+    color: var(--color-primary-green);
+}
+
+.box-button-main {
+    display: flex;
+    align-items: center;
+}
+
+.box-text-main button{
+     background-color: black;
+     color: var(--color-secondary-white);
+     font-size: var(--font-headline-button-size);
+     font-family: var(--font-button);
 }
 
