@@ -6,7 +6,7 @@ export const Header = () => {
     return (
         <header>
             <img src={logo} alt="" />
-            <nav>
+            <nav className='nav-header'>
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/design">Design</Link></li>
@@ -14,7 +14,7 @@ export const Header = () => {
                     <li><Link to="/ia">Ia</Link></li>
                 </ul>
             </nav>
-            <a href="">Diagnóstico</a>
+            <a className='btn-header'href="">Diagnóstico</a>
         </header>
 
     )

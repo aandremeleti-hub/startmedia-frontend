@@ -1,0 +1,30 @@
+header{
+    background-color: var(--color-secondary-black);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 13px 68px;
+}
+
+.nav-header ul {
+    display: flex;
+    list-style: none;
+    gap: 18px;
+}
+
+.nav-header ul li a{
+    text-decoration: none;
+    font-family: var(--font-style );
+    font-size: var(--font-headline-style-size);
+    color: var(--color-secondary-white);
+}
+
+.btn-header{
+      font-family: var(--font-button); 
+      font-size: var(--font-headline-button-size);
+      text-decoration: none;
+      background-color: var(--color-primary-green);
+      color: var(--color-secondary-white);
+      padding: 11px 8px;
+      border-radius: 8px;
+}
