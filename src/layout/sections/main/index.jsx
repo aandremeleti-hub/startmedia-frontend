@@ -22,7 +22,7 @@ export const Main = () => {
                 <img src={primaryImageMain} alt="" />
             </div>
 
-            <div>
+            <div className='box-cards-main'>
                 <CardMain 
                     image={design_icon} 
                     titulo="Design"
@@ -32,7 +32,7 @@ export const Main = () => {
                 <CardMain 
                     image={site_icon} 
                     titulo="Site e landing page"
-                    paragrafo="Sites e landing pages que fortalecem sua marca e transformam visitas em resultados reais"
+                    paragrafo="Sites e landing pages que fortalecem sua marca e transformam visitas em resultados"
                     image_button={button_card_main} />
 
                 <CardMain 

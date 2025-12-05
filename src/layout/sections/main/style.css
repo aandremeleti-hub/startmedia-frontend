@@ -49,3 +49,9 @@ main{
      font-family: var(--font-button);
 }
 
+.box-cards-main {
+    display: flex;
+    justify-content: center;
+    gap: 38px
+}
+
