@@ -1,11 +1,12 @@
-import { CardDesign } from "../../components/cards/card-design"
-import { Header } from "../../layout/header"
+import { Header } from "../../layout/sections/header"
+import { DesignMainSection } from "../../layout/sections/design_main_section"
+
 
 export const Design = () => {
     return (
         <>
             <Header />
-            <CardDesign parametro1="parametro1" parametro2="parametro2"/>
+            <DesignMainSection/>
         </>
     )
 }

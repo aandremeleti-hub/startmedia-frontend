@@ -1,6 +1,6 @@
 import { CardSitePrimary } from "../../components/cards/card-site-primary"
 import { CardSiteSecondary } from "../../components/cards/card-site-secondary"
-import { Header } from "../../layout/header"
+import { Header } from "../../layout/sections/header"
 
 export const Site = () => {
     return (
