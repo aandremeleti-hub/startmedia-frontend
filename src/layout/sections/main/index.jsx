@@ -6,8 +6,43 @@ import button_card_main from '../../../assets/images/home/button_card_main.svg'
 import design_icon from '../../../assets/images/home/design_icon.svg'
 import site_icon from '../../../assets/images/home/site_icon.svg'
 import ia_icon from '../../../assets/images/home/ia_icon.svg'
+import { useState } from 'react'
+import { ModalDesign } from '../../../components/modals/modalDesign'
+import { ModalSite } from '../../../components/modals/modalSite'
+import { ModalIa } from '../../../components/modals/modalIa'
 
 export const Main = () => {
+
+    const [openModalDesign, setOpenModalDesign] = useState(false)
+
+    const abrirModalDesign = () => {
+        setOpenModalDesign(true)
+    }
+
+    const fecharModalDesign = () => {
+        setOpenModalDesign(false)
+    }
+
+    const [openModalSite, setOpenModalSite] = useState(false)
+
+    const abrirModalSite = () => {
+        setOpenModalSite(true)
+    }
+
+    const fecharModalSite = () => {
+        setOpenModalSite(false)
+    }
+
+    const [openModalIa, setOpenModalIa] = useState(false)
+
+    const abrirModalIa = () => {
+        setOpenModalIa(true)
+    }
+
+    const fecharModalIa = () => {
+        setOpenModalIa(false)
+    }
+
     return (
         <main>
             <div className='content-main'>
@@ -23,25 +58,32 @@ export const Main = () => {
             </div>
 
             <div className='box-cards-main'>
-                <CardMain 
-                    image={design_icon} 
+                <CardMain
+                    image={design_icon}
                     titulo="Design"
                     paragrafo="Design estratégico que conecta sua marca ao público certo e impulsiona seus resultados"
-                    image_button={button_card_main} />
+                    image_button={button_card_main}
+                    abrirModal={abrirModalDesign} />
 
-                <CardMain 
-                    image={site_icon} 
+                <CardMain
+                    image={site_icon}
                     titulo="Site e landing page"
                     paragrafo="Sites e landing pages que fortalecem sua marca e transformam visitas em resultados"
-                    image_button={button_card_main} />
+                    image_button={button_card_main}
+                    abrirModal={abrirModalSite}/>
 
-                <CardMain 
-                    image={ia_icon} 
-                    titulo="Atendimento com IA "
+                <CardMain
+                    image={ia_icon}
+                    titulo="IA "
                     paragrafo="Atendimento inteligente que automatiza sua comunicação e acelera suas conversões"
-                    image_button={button_card_main} />
+                    image_button={button_card_main}
+                    abrirModal={abrirModalIa} />
 
             </div>
+
+            <ModalDesign open={openModalDesign} onClose={fecharModalDesign} />
+            <ModalSite open={openModalSite} onClose={fecharModalSite} />
+            <ModalIa open={openModalIa} onClose={fecharModalIa} />
 
 
         </main>
