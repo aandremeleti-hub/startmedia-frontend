@@ -3,8 +3,8 @@ import design_icon from '../../../assets/images/home/design_icon.svg'
 
 export const DesignMainSection = () => {
     return(
-        <div>
-            <div>
+        <div className="content_design_main_section">
+            <div className="container_title_main_section_design">
                 <h1>Design</h1>
                 <p>Learn for free about math, art, computer programming, economics, physics, chemistry, biology, medicine, finance, history.</p>
             </div>
