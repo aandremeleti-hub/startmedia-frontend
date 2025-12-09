@@ -2,7 +2,7 @@ import './style.css'
 
 export const CardDesign = ({ imagem, titulo, paragrafo, icone, item1, item2, item3, item4 }) => {
     return (
-        <div>
+        <div className='content-card-design'>
             <img src={imagem} alt="" />
             <h1>{titulo}</h1>
             <p>{paragrafo}</p>

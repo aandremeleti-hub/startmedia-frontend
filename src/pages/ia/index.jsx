@@ -1,7 +1,7 @@
 import { CardIaPrimary } from "../../components/cards/card-ia-primary"
 import { CardIaSecondary } from "../../components/cards/card-ia-secondary"
 import { CardIaThird } from "../../components/cards/card-ia-third"
-import { Header } from "../../layout/sections/header"
+import { Header } from "../../components/layout/header"
 
 export const Ia = () => {
     return (

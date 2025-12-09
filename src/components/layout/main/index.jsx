@@ -1,4 +1,4 @@
-import { CardMain } from '../../../components/cards/card-main'
+import { CardMain } from '../../cards/card-main'
 import './style.css'
 import iconeBotaoSeta from '../../../assets/images/home/icone_botao_seta.svg'
 import primaryImageMain from '../../../assets/images/home/primary_image_main.svg'
@@ -7,9 +7,9 @@ import design_icon from '../../../assets/images/home/design_icon.svg'
 import site_icon from '../../../assets/images/home/site_icon.svg'
 import ia_icon from '../../../assets/images/home/ia_icon.svg'
 import { useState } from 'react'
-import { ModalDesign } from '../../../components/modals/modalDesign'
-import { ModalSite } from '../../../components/modals/modalSite'
-import { ModalIa } from '../../../components/modals/modalIa'
+import { ModalDesign } from '../../modals/modalDesign'
+import { ModalSite } from '../../modals/modalSite'
+import { ModalIa } from '../../modals/modalIa'
 
 export const Main = () => {
 

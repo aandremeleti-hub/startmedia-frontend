@@ -1,5 +1,5 @@
-import { Header } from "../../layout/sections/header";
-import { Main } from "../../layout/sections/main";
+import { Header } from "../../components/layout/header";
+import { Main } from "../../components/layout/main";
 
 export const Home = () => {
     return (
