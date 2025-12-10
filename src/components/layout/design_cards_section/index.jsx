@@ -8,10 +8,10 @@ import calender_icon_design_card from '../../../assets/images/home/calender_icon
 
 export const DesignCardsSection = () => {
     return (
-        <section>
+        <section className='design_cards_section'>
             <h1>O que você ganha?</h1>
             <div>
-                <div>
+                <div className='container-cards-design'>
                     <CardDesign
                         imagem={puzzle_icon_design_card}
                         titulo="Estratégia"
@@ -32,7 +32,7 @@ export const DesignCardsSection = () => {
                         item3="Smart contracts"
                         item4="Blockchain analytics" />
                 </div>
-                <div>
+                <div className='container-cards-design'>
                     <CardDesign
                         imagem={threed_icon_design_card}
                         titulo=" Vídeos e animação"

@@ -1,0 +1,16 @@
+.design_cards_section{
+    background-color: var(--color-secondary-black);
+}
+
+.design_cards_section h1{
+    color: var(--color-secondary-white);
+    text-align: center;
+}
+
+.container-cards-design{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 117px;
+
+}
