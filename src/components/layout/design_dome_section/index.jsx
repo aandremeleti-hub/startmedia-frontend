@@ -5,7 +5,7 @@ import dome_icon from '../../../assets/images/home/dome_icon.svg'
 
 export const DesignDomeSection = () => {
     return (
-        <section>
+        <section >
             <div className='title_dome_section'>
                 <img src={suitcase_icon_design_card} alt="" />
                 <h1>Portfólio</h1>

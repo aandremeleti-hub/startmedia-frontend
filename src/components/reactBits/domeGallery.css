@@ -21,6 +21,8 @@
   transform-style: preserve-3d;
 }
 
+
+
 main.sphere-main {
   position: absolute;
   inset: 0;
@@ -196,3 +198,51 @@ main.sphere-main {
 .edge-fade--bottom {
   bottom: 0;
 }
+/* Container do modal de imagem */
+.enlarge {
+  display: flex;
+  flex-direction: column;
+}
+
+/* A imagem ocupa todo o espaço disponível do modal */
+.enlarge img {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Botão de download dentro do modal */
+.dome-download-button {
+  position: absolute;              /* fica grudado dentro do .viewer */
+  bottom: 70px;                    /* sobe um pouco acima da base do modal */
+  left: 50%;
+  transform: translateX(-50%);
+  
+  display: none;                   /* por padrão, escondido */
+
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: none;
+  background: var(--color-primary-green);
+  color: #060010;
+  font-size: var(--font-headline-button-size);
+  font-family: var(--font-style);
+  text-decoration: none;
+  cursor: pointer;
+  pointer-events: auto;            /* garante clique mesmo com overlay */
+  z-index: 40;                     /* acima da imagem do modal */
+}
+
+.sphere-root[data-enlarging='true'] .dome-download-button {
+  display: inline-flex;            /* aparece só quando o modal abre */
+  justify-content: center;
+  align-items: center;
+}
+
+.dome-download-button:hover {
+  filter: brightness(1.05);
+  transform: translate(-50%, -1px);
+}
+
+
