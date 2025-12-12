@@ -5,18 +5,18 @@ import design_icon from '../../../assets/images/home/design_icon.svg'
 
 export const DesignGugaSection = () => {
     return (
-        <section>
-            <img src={design_guga_section_picture.svg} alt="" />
-            <div>
+        <section className='design_guga_section'>
+            <img src={design_guga_section_picture} alt="" />
+            <div className='design_guga_section_content'>
                 <img src={design_guga_section_title} alt="" />
-                <h1>Dedicated gaming server with low ping & no latency</h1>
-                <div>
+                <h1>Dedicated gaming server with low ping & no </h1>
+                <div className='design_guga_section_item'>
                     <img src={design_icon} alt="" />
-                    <h3>100+ Gamer say good for them</h3>
+                    <h2>100+ Gamer say good for them</h2>
                 </div>
-                <div>
+                <div className='design_guga_section_item'>
                     <img src={design_icon} alt="" />
-                    <h3>20+ Dedicated gaming server, with no latency</h3>
+                    <h2>20+ Dedicated gaming server, with no</h2>
                 </div>
                 <p>We believe in trustworthiness, and most of our users are loyal since we keep their trust by providing valued service. Data breaches could be lethal for any business, and we're of utmost concerned about server security. ​​We know exactly what we're doing, and Symlex VPN runs on the most secure server, minimizing the risk of vulnerabilitiesWe believe in trustworthiness, and most of our users are loyal since .</p>
             </div>
