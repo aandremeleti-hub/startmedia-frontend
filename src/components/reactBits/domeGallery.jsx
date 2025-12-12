@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useCallback } from 'react';
+import { useEffect, useMemo, useRef, useCallback, useState } from 'react';
 import { useGesture } from '@use-gesture/react';
 import './DomeGallery.css';
 import guga_one_piece from '../../assets/images/home/guga_one_piece.svg'
@@ -8,6 +8,7 @@ import guga_moana from '../../assets/images/home/guga_moana.svg'
 import guga_ufc_panjota from '../../assets/images/home/guga_ufc_panjota.svg'
 import guga_ufc_fight_pass from '../../assets/images/home/guga_ufc_fight_pass.svg'
 import guga_ufc_figueiredo from '../../assets/images/home/guga_ufc_figueiredo.svg'
+import guga_ufc_anderson from '../../assets/images/home/guga_ufc_anderson.svg'
 import guga_cassio from '../../assets/images/home/guga_cassio.svg'
 
 const DEFAULT_IMAGES = [
@@ -152,6 +153,7 @@ export default function DomeGallery({
     const focusedElRef = useRef(null);
     const originalTilePositionRef = useRef(null);
 
+
     const rotationRef = useRef({ x: 0, y: 0 });
     const startRotRef = useRef({ x: 0, y: 0 });
     const startPosRef = useRef(null);
@@ -161,6 +163,8 @@ export default function DomeGallery({
     const openingRef = useRef(false);
     const openStartedAtRef = useRef(0);
     const lastDragEndAt = useRef(0);
+
+    
 
     const scrollLockedRef = useRef(false);
     const lockScroll = useCallback(() => {
@@ -587,6 +591,7 @@ export default function DomeGallery({
             if (movedRef.current) return;
             if (performance.now() - lastDragEndAt.current < 80) return;
             if (openingRef.current) return;
+
             openItemFromElement(e.currentTarget);
         },
         [openItemFromElement]
@@ -668,6 +673,8 @@ export default function DomeGallery({
                         Baixar Portfólio
                     </a>
                 </div>
+
+                
 
             </main>
         </div>
