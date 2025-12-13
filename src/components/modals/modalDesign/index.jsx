@@ -3,6 +3,8 @@ import Modal from '@mui/material/Modal'
 import iconeSetaModal from '../../../assets/images/home/icone_seta_modal.svg'
 import modalDesignImage from '../../../assets/images/home/modal_design_image.svg'
 import design_icon from '../../../assets/images/home/design_icon.svg'
+import { Link } from 'react-router-dom'
+
 
 export const ModalDesign = ({ open, onClose }) => {
     return (
@@ -17,7 +19,10 @@ export const ModalDesign = ({ open, onClose }) => {
                     <p>James Maitland Stewart (May 20, 1908 – July 2, 1997) was an American actor and military pilot. Known for his distinctive drawl and everyman screen persona, Stewart's film career spanned 80 films from 1935 to 1991. With the strong morality he portrayed both on and off the screen, he epitomized the "American ideal". </p>
                     <div>
                         <img src={iconeSetaModal} alt="" />
-                        <a href="">Saiba mais</a>
+                        <Link to="/design" onClick={onClose}>
+                            Saiba mais
+                        </Link>
+
                     </div>
                 </div>
             </div>

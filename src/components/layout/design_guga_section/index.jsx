@@ -3,6 +3,7 @@ import design_guga_section_picture from '../../../assets/images/home/design_guga
 import design_guga_section_title from '../../../assets/images/home/design_guga_section_title.svg'
 import design_icon from '../../../assets/images/home/design_icon.svg'
 
+
 export const DesignGugaSection = () => {
     return (
         <section className='design_guga_section'>
