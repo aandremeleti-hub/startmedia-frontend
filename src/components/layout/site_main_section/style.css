@@ -1,7 +1,7 @@
 .container-site-section {
     display: flex;
     justify-content: center;
-    padding: 137px 157px 206px 158px;
+    padding: 137px 157px 150px 158px;
     background-color: var(--color-secondary-black);
 }
 
