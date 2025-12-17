@@ -15,7 +15,7 @@
     flex-direction: column;
     align-items: center;
     gap: 29px;
-    box-shadow: 0 24px 60px rgba(255, 255, 255, 0.3); /* sombra suave */
+    box-shadow: 0 24px 60px rgba(255, 255, 255, 0.2); /* sombra suave */
 }
 
 

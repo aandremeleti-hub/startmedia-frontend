@@ -2,7 +2,7 @@ import './style.css'
 
 export const CardSitePrimary = ({ imagem, titulo, paragrafo, icone, item1, item2, item3, item4 }) => {
     return (
-        <div className='content-card-site'>
+        <section className='content-card-site'>
             <div className='card-site'>
                 <img className="card-site-image" src={imagem} alt="" />
 
@@ -34,6 +34,6 @@ export const CardSitePrimary = ({ imagem, titulo, paragrafo, icone, item1, item2
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
