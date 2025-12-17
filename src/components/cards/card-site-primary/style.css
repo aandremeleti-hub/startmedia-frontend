@@ -1,0 +1,65 @@
+/* wrapper opcional, caso você queira centralizar a seção */
+.content-card-site {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD */
+.card-site {
+    background-color: var(--color-secondary-gray);      /* fundo escuro */
+    border-radius: 33px;            /* cantos bem arredondados */
+    padding: 51px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+    box-shadow: 0 24px 60px rgba(255, 255, 255, 0.3); /* sombra suave */
+}
+
+
+/* título */
+.card-site-title {
+    font-size: var(--font-headline-h3-size);
+    font-family: var(--font-title);
+    color: var(--color-secondary-white);
+}
+
+/* parágrafo */
+.card-site-text {
+    font-size: var(--font-headline-h4-size);
+    color: var(--color-secondary-white);
+    font-family: var(--font-body);
+    width: 480px;
+}
+
+/* container das listas (duas colunas) */
+.card-site-items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 16px;
+}
+
+/* cada coluna de itens */
+.card-site-column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* cada linha "• ícone + texto" */
+.card-site-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: var(--font-body);
+    color: var(--color-secondary-white);
+}
+
+/* ícone da bullet */
+.card-site-item img {
+    width: 8px;
+    height: 8px;
+}

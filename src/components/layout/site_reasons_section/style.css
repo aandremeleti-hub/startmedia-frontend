@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: var(--color-secondary-black);
     color: var(--color-secondary-white);
-    padding: 50px 169px 50px 169px;
+    padding: 50px 169px 120px 169px;
     gap: 60px;
     justify-content: center;
 }
