@@ -1,6 +1,6 @@
 import './style.css'
 
-export const CardSite = ({ imagem, titulo, paragrafo, icone, item1, item2, item3, item4 }) => {
+export const CardSitePrimary = ({ imagem, titulo, paragrafo, icone, item1, item2, item3, item4 }) => {
     return (
         <div className='content-card-site'>
             <div className='card-site'>

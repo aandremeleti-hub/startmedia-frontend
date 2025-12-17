@@ -1,4 +1,5 @@
 import { Header } from "../../components/layout/header"
+import { SiteCardsSection } from "../../components/layout/site_cards_section"
 import { SiteMainSection } from "../../components/layout/site_main_section"
 import { SiteReasonsSection } from "../../components/layout/site_reasons_section"
 
@@ -8,6 +9,7 @@ export const Site = () => {
             <Header />
             <SiteMainSection/>
             <SiteReasonsSection/>
+            <SiteCardsSection/>
         </>
     )
 }
