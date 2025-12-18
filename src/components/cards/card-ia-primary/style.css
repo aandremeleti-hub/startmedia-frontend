@@ -1,0 +1,30 @@
+.content-card-ia-primary{
+    background-color: var(--color-secondary-gray);
+    width: 377px;
+    height: 504px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 36px;
+    padding: 42px;
+    align-items: center;
+    color: var(--color-secondary-white);
+    gap: 30px;
+}
+.content-card-ia-primary img{
+    width: 223px;
+    height: 231px;
+}
+
+.content-card-ia-primary h1{
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h3-size);
+    margin-top: -30px;
+}
+
+.content-card-ia-primary p{
+    text-align: center;
+    width: 265px;
+    font-size: var(--font-headline-body-size);
+    font-family: var(--font-body);
+    margin-top: 20px;
+}
