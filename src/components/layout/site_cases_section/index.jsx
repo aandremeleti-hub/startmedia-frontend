@@ -10,10 +10,10 @@ import frd_logo from '../../../assets/images/home/frd_logo.svg'
 
 export const SiteCasesSection = () => {
     return (
-        <section>
+        <section className='site_secondary_cards_section'>
             <h1>Estudos de caso</h1>
             <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</h2>
-            <div>
+            <div className='container_secondary_cards_site'>
                 <CardSiteSecondary
                     imagem={forbes_logo}
                     titulo="MachineLearningProject"
@@ -37,7 +37,7 @@ export const SiteCasesSection = () => {
                     item4="Lorem Ipsum is simply " />
             </div>
 
-            <div>
+            <div className='container_secondary_cards_site'>
                 <CardSiteSecondary
                     imagem={hostinger}
                     titulo="MachineLearningProject"

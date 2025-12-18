@@ -1,0 +1,32 @@
+.site_secondary_cards_section{
+    background-color: var(--color-secondary-black);
+    padding: 0px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.site_secondary_cards_section h1{
+    color: var(--color-secondary-white);
+    text-align: center;
+    font-size: var(--font-headline-h3-size);
+    font-family: var(--font-title);
+}
+
+.site_secondary_cards_section h2{
+    color: var(--color-secondary-white);
+    text-align: center;
+    width: 520px;
+    font-size: var(--font-headline-body-size);
+    font-family: var(--font-body);
+    line-height: 26px;
+}
+
+.container_secondary_cards_site{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 117px;
+
+}
