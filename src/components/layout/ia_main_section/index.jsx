@@ -4,7 +4,7 @@ import ia_icon from '../../../assets/images/home/ia_icon.svg'
 export const IaMainSection = () => {
     return (
         <section>
-            <section className='container_ia_section'>
+            <section className='container-ia-main-section'>
                 <div className="content_ia_main_section">
                     <div className="container_title_main_section_ia">
                         <h1>Atendimento com IA</h1>
