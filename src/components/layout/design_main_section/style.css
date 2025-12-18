@@ -1,9 +1,16 @@
+.container-design-main-section {
+  display: flex;
+  justify-content: center;
+  padding: 137px 157px 150px 158px;
+  background-color: var(--color-secondary-black);
+}
+
+
 .content_design_main_section{
     background-color: var(--color-secondary-black);
     display: flex;
     align-items: center;
     gap: 33px;
-    padding: 137px 157px 206px 158px;
 }
 
 .container_title_main_section_design{
@@ -25,6 +32,10 @@
     font-size: var(--font-headline-body-size);
     color: var(--color-secondary-white);
     width: 260px
+}
+
+.content_design_main_section img{
+    width: 103px;
 }
 
 .content_design_main_section h2{
