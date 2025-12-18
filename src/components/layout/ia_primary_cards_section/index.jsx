@@ -4,12 +4,14 @@ import dashboard_ia_primary_cards_section from '../../../assets/images/home/dash
 
 
 export const IaPrimaryCardsSection = () => {
-    return(
-        <section className='ia-primary-cards-section'>
-            <CardIaPrimary
-            imagem={dashboard_ia_primary_cards_section}
-            titulo="Atendimento 24h"
-            texto="O cliente consegue resolver tudo rápido, sem esperar, sem burocracia, sem repetir informações. Isso aumenta satisfação e conversão."/>
+    return (
+        <section>
+            <div className='container-ia-primary-cards'>
+                <CardIaPrimary
+                    imagem={dashboard_ia_primary_cards_section}
+                    titulo="Atendimento 24h"
+                    texto="O cliente consegue resolver tudo rápido, sem esperar, sem burocracia, sem repetir informações. Isso aumenta satisfação e conversão." />
+            </div>
         </section>
     )
 }
