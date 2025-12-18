@@ -1,0 +1,18 @@
+.content-ia-primary-cards{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-secondary-black);
+    color: var(--color-secondary-white);
+}
+
+.content-ia-primary-cards h1{
+    text-align: center;
+}
+
+.container-ia-primary-cards{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    padding: 87px 0px 96px 0px;
+}
+

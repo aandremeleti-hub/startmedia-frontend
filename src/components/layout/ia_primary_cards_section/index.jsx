@@ -7,9 +7,9 @@ import file_ia_primary_cards_section from '../../../assets/images/home/file_ia_p
 export const IaPrimaryCardsSection = () => {
     return (
         <section>
-            <div className='container-ia-primary-cards'>
+            <div className='content-ia-primary-cards'>
                 <h1>O que você ganha?</h1>
-                <div>
+                <div className='container-ia-primary-cards'>
                     <CardIaPrimary
                         imagem={dashboard_ia_primary_cards_section}
                         titulo="Atendimento 24h"
