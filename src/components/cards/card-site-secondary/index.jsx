@@ -5,7 +5,7 @@ export const CardSiteSecondary = ({ imagem, titulo, icone_seta, texto, icone_bol
         <section className='content-secondary-card-site'>
             <img className='secondary-card-image' src={imagem} alt="" />
             <div className='box-title-secondary-card-site'>
-                <h2 className='title-secondary-card-site'>{titulo}</h2>
+                <h2>{titulo}</h2>
                 <img className='image-title-secondary-card-site' src={icone_seta} alt="" />
             </div>
             <h3 className='text-secondary-card-site'>{texto}</h3>

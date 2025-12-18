@@ -20,14 +20,21 @@
 
 .box-title-secondary-card-site{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
     width: 488px;
 }
 
-.title-secondary-card-site{
+.box-title-secondary-card-site h2{
     font-size: var(--font-headline-h3-size);
     font-family: var(--font-title);
+    margin: 0;
+    }
+
+.image-title-secondary-card-site{
+  margin-left: auto; /* NOVO: empurra a seta para a extrema direita */
+  display: block;    /* NOVO: remove espaçamento “inline” da imagem */
 }
 
 .text-secondary-card-site{
