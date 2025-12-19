@@ -18,9 +18,13 @@
 
 .content-card-ia-secondary h1{
     text-align: center;
+    font-size: var(--font-headline-button-size);
+    font-family: var(--font-button);
 }
 
 .content-card-ia-secondary p{
     text-align: center;
     width: 196px;
-}
+    font-size: var(--font-headline-body-size);
+    font-family: var(--font-body);
+} 

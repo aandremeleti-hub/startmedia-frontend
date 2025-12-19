@@ -8,7 +8,7 @@ export const IaPrimaryCardsSection = () => {
     return (
         <section>
             <div className='content-ia-primary-cards'>
-                <h1>O que você ganha?</h1>
+                <h1 className='title-ia-primary-cards'>O que você ganha?</h1>
                 <div className='container-ia-primary-cards'>
                     <CardIaPrimary
                         imagem={dashboard_ia_primary_cards_section}

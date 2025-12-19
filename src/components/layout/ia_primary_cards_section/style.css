@@ -5,8 +5,10 @@
     color: var(--color-secondary-white);
 }
 
-.content-ia-primary-cards h1{
+.title-ia-primary-cards{
     text-align: center;
+    font-size: var(--font-headline-h2-size);
+    font-family: var(--font-title);
 }
 
 .container-ia-primary-cards{

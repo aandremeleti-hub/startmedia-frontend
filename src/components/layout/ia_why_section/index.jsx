@@ -6,8 +6,8 @@ export const IaWHySection = () => {
     return (
         <section>
             <div className='content-ia-secondary-cards'>
-                <h1>Por que a STARTMEDIA?</h1>
-                <div>
+                <h1 className='title-ia-secondary-cards'>Por que a STARTMEDIA?</h1>
+                <div className='container-ia-secondary-cards'>
                     <CardIaSecondary
                         imagem={ check_icon}
                         titulo="Personalização"

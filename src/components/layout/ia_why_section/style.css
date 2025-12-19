@@ -1,4 +1,23 @@
 .content-ia-secondary-cards{
     background-color: var(--color-secondary-black);
     color: var(--color-secondary-white);
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+    padding: 80px 0px 160px 0px;
+
 }
+
+.title-ia-secondary-cards {
+    font-size: var(--font-headline-h2-size);
+    font-family: var(--font-title);
+
+}
+
+.container-ia-secondary-cards{
+    display: flex;
+    gap: 46px;
+}
+
+ 
