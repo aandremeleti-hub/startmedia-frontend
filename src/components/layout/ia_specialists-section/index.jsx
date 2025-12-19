@@ -5,7 +5,7 @@ import quotation_marks from '../../../assets/images/home/quotation_marks.svg'
 
 export const IaSpecialistsSection = () => {
     return(
-        <section>
+        <section className='content-ia-specialists-section'>
             <CardIaThird
             linha={line}
             aspas={quotation_marks}

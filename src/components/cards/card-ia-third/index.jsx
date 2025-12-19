@@ -2,14 +2,14 @@ import './style.css'
 
 export const CardIaThird = ({linha, aspas, titulo, nome, cargo}) => {
     return (
-        <div>
-            <div>
-                <img src={linha} alt="" />
+        <div className='content-card-ia-third'>
+            <div className='container-card-ia-third'>
+                <img className='line-image-container-card-ia-third' src={linha} alt="" />
                 <img src={aspas} alt="" />
-                <img src={linha} alt="" />
+                <img className='line-image-container-card-ia-third' src={linha} alt="" />
             </div>
-            <h1>{titulo}</h1>
-            <div>
+            <h1 className='title-card-ia-third'>{titulo}</h1>
+            <div className='container-name-card-ia-third'>
                 <h2>{nome}</h2>
                 <h3>{cargo}</h3>
             </div>
