@@ -1,8 +1,11 @@
-export const CardIaSecondary = (parametro1, parametro2) => {
+import './style.css'
+
+export const CardIaSecondary = ({imagem, titulo, texto }) => {
     return (
         <div>
-            <h1>{parametro1}</h1>
-            <h2>{parametro2}</h2>
+            <img src={imagem} alt="" />
+            <h1>{titulo}</h1>
+            <p>{texto}</p>
         </div>
     )
 }
