@@ -5,7 +5,7 @@ import check_icon from '../../../assets/images/home/check_icon.svg'
 export const IaWHySection = () => {
     return (
         <section>
-            <div>
+            <div className='content-ia-secondary-cards'>
                 <h1>Por que a STARTMEDIA?</h1>
                 <div>
                     <CardIaSecondary
